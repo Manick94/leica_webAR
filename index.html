@@ -40,7 +40,7 @@
   </style>
 
   <!-- Script for Video Handler for vid nft asset -->
-  <script>
+  <!-- <script>
     window.onload = function() {
         AFRAME.registerComponent('videohandler', {
             init: function () {
@@ -59,7 +59,7 @@
             }
         });
     };
-  </script>
+  </script> -->
 
 
 
@@ -104,12 +104,13 @@
 
 
         <!-- NFT assets for image tracking video player -->
-        <a-assets>
+        <!-- <a-assets>
             <video src="./videos/mov_bbb.mp4"
                 preload="auto" id="vid" response-type="arraybuffer" loop
                 crossorigin webkit-playsinline autoplay  playsinline>
            </video>
-        </a-assets>
+        </a-assets> -->
+
         <a-assets>
             <video src="./videos/ArveoIntro.mp4"
                 preload="auto" id="vid2" response-type="arraybuffer" loop
@@ -154,7 +155,7 @@
             smooth="true" smoothCount="10" smoothTolerance="0.01" smoothThreshold="5">
             <a-video
                 src="#vid2"
-                position='200 250 -100'
+                position='300 200 -100'
                 rotation='-90 180 180'
                 width='600'
                 height='350'>
